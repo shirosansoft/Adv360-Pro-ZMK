@@ -21,9 +21,9 @@
 #define HYP(key) LS(LC(LA(LG(key))))
 #define MACLOCK  LG(LC(Q))
 
-#define BROWSER_SEARCH LG(KC_F) 
-#define BROWSER_NEWTAB LG(KC_T) 
-#define BROWSER_CLOSETTAB LG(KC_W) 
+#define BROWSER_SEARCH LG(F) 
+#define BROWSER_NEWTAB LG(T) 
+#define BROWSER_CLOSETTAB LG(W) 
 #define BROWSER_NEXTTAB LG(LA(RIGHT))
 #define BROWSER_PREVTAB LG(LA(LEFT))
 
