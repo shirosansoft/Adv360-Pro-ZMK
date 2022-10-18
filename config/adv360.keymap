@@ -34,6 +34,10 @@
     flavor = "tap-preferred";
 };
 
+&lt {
+    quick_tap_ms = <200>;
+};
+
 / {
   behaviors {
     #include "macros.dtsi"
