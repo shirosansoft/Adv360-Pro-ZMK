@@ -30,7 +30,7 @@
 #define BROWSER_PREVTAB LG(LA(LEFT))
 
 &mt {
-    tapping-term-ms = <150>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
 
