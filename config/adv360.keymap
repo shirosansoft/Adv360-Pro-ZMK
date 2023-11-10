@@ -97,5 +97,35 @@
             >;
         };
 
+        layer_BLENDER {
+            bindings = <
+  &trans     &kp N1      &kp N2  &kp N3  &kp N4  &kp N5            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp TAB      &kp Q       &kp W   &kp E   &kp R  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans      &kp A       &kp S   &kp X   &kp Y   &kp G            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &kp KP_N1   &kp KP_N3   &kp Z  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &kp KP_N7  &kp KP_DOT   &none   &none                     &mo 7   &mo 8  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_BLENDER2 {
+            bindings = <
+      &trans              &kp N6                &kp N7     &kp N8     &kp N9  &kp N0            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LC(TAB)              &trans                   &bt  &kp LC(E)  &kp LC(R)  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+      &trans           &kp LS(A)             &kp LC(S)  &kp LS(D)      &kp F  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+      &trans    &macro_view_back  &macro_view_opp_side  &kp LS(Z)     &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+      &trans  &macro_view_bottom                &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_BLENDER3 {
+            bindings = <
+ &trans  &trans  &trans     &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans     &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans     &trans  &kp LC(F)  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LA(Z)     &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
