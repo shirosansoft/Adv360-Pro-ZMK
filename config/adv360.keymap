@@ -99,11 +99,11 @@
 
         layer_BLENDER {
             bindings = <
-  &trans     &kp N1      &kp N2     &kp N3         &kp N4  &kp N5            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans      &kp Q       &kp W      &kp E          &kp R   &kp O             &kp J                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp TAB      &kp A       &kp S      &kp X          &kp Y   &kp G             &kp K   &none  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-   &kp L  &kp KP_N1   &kp KP_N3      &kp Z          &kp C  &trans                             &kp T                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-   &kp H  &kp KP_N7  &kp KP_DOT  &kp LC(Z)  &kp LC(LS(Z))                     &mo 7   &mo 8   &kp N                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+  &trans     &kp N1      &kp N2     &kp N3         &kp N4  &kp N5            &none                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans      &kp Q       &kp W      &kp E          &kp R   &kp O            &kp J                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp TAB      &kp A       &kp S      &kp X          &kp Y   &kp G            &kp K   &none  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+   &kp L  &kp KP_N1   &kp KP_N3      &kp Z          &kp C   &none                            &kp T                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+   &kp H  &kp KP_N7  &kp KP_DOT  &kp LC(Z)  &kp LC(LS(Z))                    &mo 7   &mo 8   &kp N                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
